@@ -5,11 +5,11 @@ const User = require("../models/user");
 passport.use(
   new OAuth2Strategy(
     {
-      authorizationURL: "OAuth2 Authorization URL",
-      tokenURL: "OAuth2 Token URL",
-      clientID: "Your OAuth2 Client ID",
-      clientSecret: "Your OAuth2 Client Secret",
-      callbackURL: "Callback URL for OAuth2",
+      authorizationURL: process.env.OAUTH2_AUTHORIZATION_URL,
+      tokenURL: process.env.OAUTH2_TOKEN_URL,
+      clientID: process.env.OAUTH2_CLIENT_ID,
+      clientSecret: process.env.OAUTH2_CLIENT_SECRET,
+      callbackURL: process.env.OAUTH2_CALLBACK_URL,
     },
     async (accessToken, refreshToken, profile, done) => {
       try {
