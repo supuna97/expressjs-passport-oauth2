@@ -20,8 +20,8 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use("/api/auth", authRoutes); // Define OAuth2 authentication routes
-app.use("/api/v1", authenticateToken, apiRoutes); // Protect the API routes with token-based authentication middleware
+app.use("/v1/auth", authRoutes); // Define OAuth2 authentication routes
+app.use("/v1", authenticateToken, apiRoutes); // Protect the API routes with token-based authentication middleware
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
