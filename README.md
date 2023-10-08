@@ -29,5 +29,4 @@ AUTH_CALLBACK_URL=http://localhost:3000/auth/google/callback
 5. Open your browser and go to `http://localhost:3000`
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
-```
+[Apace 2.0](https://www.apache.org/licenses/LICENSE-2.0)
