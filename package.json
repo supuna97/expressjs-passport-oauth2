@@ -31,10 +31,10 @@
   "homepage": "https://github.com/supuna97/expressjs-passport-oauth2#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.19.2",
+    "express": "^4.21.2",
     "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.8",
