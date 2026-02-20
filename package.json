@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/supuna97/expressjs-passport-oauth2#readme",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcrypt": "^6.0.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -38,7 +38,7 @@
     "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.8",
-    "nodemon": "^3.0.1",
+    "nodemon": "^3.1.13",
     "passport": "^0.6.0",
     "passport-oauth2": "^1.7.0",
     "sequelize": "^6.33.0"
