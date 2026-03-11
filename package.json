@@ -41,6 +41,6 @@
     "nodemon": "^3.0.1",
     "passport": "^0.6.0",
     "passport-oauth2": "^1.7.0",
-    "sequelize": "^6.33.0"
+    "sequelize": "^6.37.8"
   }
 }
